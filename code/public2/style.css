@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container{
+  width: 600px;
+  margin: 2rem auto;
+  /* border: 3px solid #ccc; */
+  padding: 2rem;
+  border-radius: 6px;
+}
+
+#movieTable{
+  width: 100%;
+}
+
+
+#movieTable th, td{
+  padding: 1.2rem;
+  background: #ccc;
+  color: #444549;
+  border-radius: 6px;
+}
